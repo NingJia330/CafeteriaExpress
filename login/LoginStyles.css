@@ -1,0 +1,132 @@
+#viuLogo{
+    width: 100px;
+    height: auto;
+}
+
+header{
+	box-sizing: border-box;
+	padding: 10px 22px;
+	border-bottom: 2px solid #00264d;
+}
+.viuLogo{
+	display: table-cell;
+}
+.head {
+	display: table-cell;
+    color: #00264d;
+	width: 90%;
+	padding: 10px 22px;
+}
+
+body{
+    /*background-color: darkgrey;*/
+    color: #036;
+	font-family: sans-serif;
+}
+a.register {
+    text-decoration: none;
+    background-color: #00264d;
+    color: white;
+    font-size: large;
+	font-weight: bold;
+	border: 1px solid #00264d;
+	font-family: sans-serif;
+	padding: 0.5%;
+}
+
+ /********************Image Gallery****************/
+.Books {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  /*width: 33.33%;*/
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.Books {
+    border: 2px solid #036;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+div img{
+    padding: 3%;
+    padding-right: 15px;
+}
+#subhead {
+    font-family: sans-serif;
+    padding-left: 5%;
+}
+footer{
+    color: #EBF7D4;
+    text-align: center;
+    background: #091D34;
+	height: 3%;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+/************* Log in div *******************/
+.signIn{
+    border: 2px solid #036;
+    margin: 5% 10% 10% 10%;
+    float: center;
+    font-family: sans-serif;
+}
+.myLabel{
+    margin: 1px;
+    display: inline; 
+    padding-top: 2px; 
+    padding-right: 5px; 
+    width: 200px; 
+    text-align: right; 
+    float: left;
+}
+label.myLabel{
+	font-style: bold;
+}
+.myInput{
+    margin: 2px; 
+    padding: 2px; 
+    display: inline-block; 
+    font-size: 100%; 
+    width: 70%;
+	padding: 8px;
+	border: 1px solid #00264d;
+    padding-left: 5px;
+	border-radius: 10px;
+}
+#signInRow {
+    margin: 5%;
+}
+p {
+	padding-left: 5%;
+	font-style: italic;
+}
+input[type="submit"] {
+    text-decoration: none;
+    background-color: #00264d;
+    color: white;
+    font-size: large;
+	font-weight: bold;
+	float: right;
+	padding: 1%;
+	border: 1px solid #00264d;
+}
+/*********** Register styles *****************/
+.registercontainer{	
+	display: table-cell;
+	
+}
+.registercontainer a{
+	padding: 15%;
+	margin-right: 20px;
+}

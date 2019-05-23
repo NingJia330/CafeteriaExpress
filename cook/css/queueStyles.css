@@ -1,0 +1,52 @@
+#footer{
+	position: fixed;
+	bottom: -80px;
+	left: 0px;
+	width: 100%;
+	margin-top: 20px;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 50px 60px;
+  text-align: center;
+  display: inline-block;
+  font-size: 30px;
+  margin: 6px 2px;
+  cursor: pointer;
+  font-weight: bold;
+  float: right;
+}
+.button{
+  border: none;
+  color: white;
+  padding: 50px 60px;
+  text-align: center;
+  display: inline-block;
+  font-size: 30px;
+  margin: 6px 2px;
+  cursor: pointer;
+  font-weight: bold;
+  float: right;
+}
+.button a{
+  text-decoration: none;
+}
+
+.button2 {background-color: #f44336;} /* Red */ 
+
+.num {
+	font-size: x-large;
+	font-weight: bold;
+}
+
+#orderBox {
+	border-right: 1px solid #ccc;
+}
+
+
+.totalMoney{
+	font-weight: bold;	
+	font-size: large;
+	color: #56b48c;
+}
